@@ -3,8 +3,8 @@
 
 <mapper namespace="com.spring.start.service.TestMapper">
 
-	<select id="selectNow" resultType="String">
-		SELECT NOW()
+	<select id="getBagicDB" resultType="java.util.Map">
+		SELECT * FROM WISEICHAT_PROJECT
 	</select>
 
 </mapper>
